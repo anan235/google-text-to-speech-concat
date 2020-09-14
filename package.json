@@ -1,0 +1,97 @@
+{
+  "_from": "google-text-to-speech-concat",
+  "_inBundle": false,
+  "_integrity": "sha512-ZSDw/NwXZat1oKcSaEgCNO5reIpsapEwDOc19Hu1m+pD7zWfO9Bk0zF1v6Wuu08UVk+ez6PGlZ3Ryg1Xsg+zKQ==",
+  "_location": "/google-text-to-speech-concat",
+  "_phantomChildren": {
+    "@types/node": "13.13.4",
+    "abort-controller": "3.0.0",
+    "base64-js": "1.3.1",
+    "duplexify": "3.7.1",
+    "es6-promisify": "5.0.0",
+    "extend": "3.0.2",
+    "fast-text-encoding": "1.0.2",
+    "google-proto-files": "0.20.0",
+    "grpc": "1.24.3",
+    "grpc-gcp": "0.1.1",
+    "is-stream-ended": "0.1.4",
+    "json-bigint": "0.3.0",
+    "jws": "3.2.2",
+    "lodash.at": "4.6.0",
+    "lodash.camelcase": "4.3.0",
+    "lodash.has": "4.5.2",
+    "lodash.merge": "4.6.2",
+    "lru-cache": "5.1.1",
+    "node-fetch": "2.6.0",
+    "pify": "4.0.1",
+    "protobufjs": "6.9.0",
+    "retry-request": "4.1.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "google-text-to-speech-concat",
+    "name": "google-text-to-speech-concat",
+    "escapedName": "google-text-to-speech-concat",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/google-text-to-speech-concat/-/google-text-to-speech-concat-0.1.3.tgz",
+  "_shasum": "06e5aac94e33735ccf4871eef49257e3d7e2238a",
+  "_spec": "google-text-to-speech-concat",
+  "_where": "/home/me-on1/backendListnerCo",
+  "author": "Jordy van den Aardweg <jordyvandenaardweg@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jvandenaardweg/google-text-to-speech-concat/issues"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^0.5.1",
+    "@types/fs-extra": "^5.0.5",
+    "@types/google-cloud__text-to-speech": "^0.5.0",
+    "polly-ssml-split": "^0.1.0"
+  },
+  "deprecated": false,
+  "description": "Automatically split large text into parts Google's Text To Speech API can consume, and concatenated the audio into one single audiofile.",
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.4000"
+  },
+  "homepage": "https://github.com/jvandenaardweg/google-text-to-speech-concat#readme",
+  "keywords": [
+    "google",
+    "text to speech",
+    "text-to-speech",
+    "text to speech api",
+    "text-to-speech api",
+    "cloud",
+    "google cloud",
+    "concat",
+    "concatenation",
+    "split",
+    "ssml"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@me-on1/google-text-to-speech-concat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvandenaardweg/google-text-to-speech-concat.git"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "example": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' --transpile-only src/example.ts",
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' --transpile-only src/index.ts",
+    "test": "jest --silent",
+    "test:watch": "jest --watch --silent",
+    "upgrade-interactive": "npm-check --update"
+  },
+  "version": "0.1.0"
+}
