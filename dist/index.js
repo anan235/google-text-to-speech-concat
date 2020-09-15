@@ -111,8 +111,8 @@ exports.synthesize = function (textToSpeechClient, userRequestOptions) {
 exports.splitSsml = function (ssml) {
     var options = {
         synthesizer: 'google',
-  softLimit: 4000,
-  hardLimit: 5000, // Google Text to Speech API limitation
+  softLimit: 3800,
+  hardLimit: 4800, // Google Text to Speech API limitation
   breakParagraphsAboveHardLimit: true, 
     };
     try {
