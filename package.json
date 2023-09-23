@@ -58,7 +58,7 @@
   "deprecated": false,
   "description": "Automatically split large text into parts Google's Text To Speech API can consume, and concatenated the audio into one single audiofile.",
   "devDependencies": {
-    "nodemon": "^1.18.10",
+    "nodemon": "^3.0.1",
     "ts-node": "^8.0.3",
     "tslint": "^5.14.0",
     "tslint-config-airbnb": "^5.11.1",
